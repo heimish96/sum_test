@@ -7,4 +7,5 @@ sum.o: sum.c sum.h
 main.o: main.c sum.h
 	gcc -c -o main.o
 
-clean: rm *.o sum_test
+clean: 
+	rm -rf *.o sum_test
